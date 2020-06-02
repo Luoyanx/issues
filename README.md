@@ -69,3 +69,6 @@ https://minigame.vivo.com.cn/documents/#/lesson/minigame-test-table
 如何生成release签名
 
 https://minigame.vivo.com.cn/documents/#/lesson/base/start?id=%e5%a6%82%e4%bd%95%e7%94%9f%e6%88%90release%e7%ad%be%e5%90%8d
+
+
+laya.vvmini.js 相关,用的laya版本2.3.0。情况是这样的，我发现在vivo手机上播放声音的时候会卡一下。通关游戏，每次开启游戏的时候玩第一关会卡，后面就很正常。调试跟到sound用的是minisound。一开始以为是audioCache没有用。改了源码缓存了声音，但还是卡。我发现qq用的也是minisound,但是不会卡。请问下这个跟vivo发布的这个问题怎么解决。困扰好几天了。
